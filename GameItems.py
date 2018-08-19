@@ -2,7 +2,7 @@
 
 def Inventory(n):
     # Inventory Datas
-    food = {'Name': 'Food', 'Description': 'Used for eating. It restores 10 HP, and weighs 10 units.','HP': 10, 'Weight': 10}
+    food = {'Name': 'Food', 'Description': 'Used for eating. It restores 10 HP, and weighs 10 units.', 'HP': 10, 'Weight': 10}
     water = {'Name': 'Water', 'Description': 'Drinking water. It restores 10 HP, and weighs 10 units.', 'HP': 10, 'Weight': 10}
     bedkey = {'Name': 'BedroomKey', 'Description': 'A key that unlocks the door to the bedroom', 'Unlock': 'Bedroom', 'Weight': 1}
 
