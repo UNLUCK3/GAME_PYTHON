@@ -31,4 +31,4 @@ def LineWriter(n):
 
 def error(n):
     if (n.lower() == "error"):
-        print ("\n" + "That value was not recognized. Reloading..." + "\n")
+        print ("\n" + "That value was not recognized. Sorry. Reloading..." + "\n")
