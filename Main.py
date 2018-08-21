@@ -18,10 +18,17 @@ def intro():
 	if (InventoryCheck.lower() == "inventory" or "info" or "help"):
 		GameItems.Inventory(InventoryCheck)
 		time.sleep(2)
+		if (InventoryCheck.lower() == "inventory"):
+			print ("Good job! Please wait while the next segment is loaded.")
+			starting()
 		intro()
 	else:
 		GameItems.error("error")
 		intro()
+
+def starting():
+	print ("Loading...")
+	time.sleep(2)
 
 # This is at the bottom of the script so that the entirety of the code is read before initialization, increasing speeds.
 
