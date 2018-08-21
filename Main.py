@@ -29,6 +29,7 @@ def intro():
 def starting():
 	print ("Loading...")
 	time.sleep(2)
+	quit()
 
 # This is at the bottom of the script so that the entirety of the code is read before initialization, increasing speeds.
 
